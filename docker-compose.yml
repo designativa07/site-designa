@@ -1,6 +1,5 @@
 services:
   web:
-    container_name: site-designativa_site-designa
     image: node:18-alpine
     working_dir: /app
     environment:

@@ -2,8 +2,6 @@ services:
   web:
     image: node:18-alpine
     working_dir: /app
-    ports:
-      - "3001:3001"
     environment:
       - NODE_ENV=production
     command: sh -c "npm install && npm start"
